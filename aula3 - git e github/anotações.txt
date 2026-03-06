@@ -1,0 +1,2 @@
+Git: sistema de controle de versões (software) - 2005
+GitHub: plataforma WEB de hospedagem de código (rede social para devs.) - 2008
