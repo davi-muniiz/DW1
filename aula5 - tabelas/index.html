@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tabelas no HTML5</h1>
+    <table border="1">
+      <caption>
+        Tabela de Produtos
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Produto</th>
+          <th scope="col">Preço</th>
+          <th scope="col">Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Notebook</td>
+          <td>R$ 3000,00</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td scope="row">Smartphone</td>
+          <td>R$ 1500,00</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td scope="row">Tablet</td>
+          <td>R$ 2000,00</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" scope="row">Total</td>
+          <td>45</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Estrutura de Tabela Minima</h2>
+    <table border="1">
+      <tr>
+        <td>Dado1</td>
+        <td>Dado2</td>
+        <td>Dado3</td>
+        <td>Dado4</td>
+      </tr>
+      <tr>
+        <td>Dado5</td>
+        <td>Dado6</td>
+        <td>Dado7</td>
+        <td>Dado8</td>
+      </tr>
+    </table>
+
+    <h2>Tabela com Cabeçalhos</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th scope="col">Coluna 1</th>
+          <th scope="col">Coluna 2</th>
+          <th scope="col">Coluna 3</th>
+          <th scope="col">Coluna 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dado1</td>
+          <td>Dado2</td>
+          <td>Dado3</td>
+          <td>Dado4</td>
+        </tr>
+        <tr>
+          <td>Dado5</td>
+          <td>Dado6</td>
+          <td>Dado7</td>
+          <td>Dado8</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" scope="row">Rodapé da Tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Mesclando linhas e scope</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th scope="col">Coluna 1</th>
+          <th scope="col">Coluna 2</th>
+          <th scope="col">Coluna 3</th>
+          <th scope="col">Coluna 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Dado1</td>
+          <td>Dado2</td>
+          <td>Dado3</td>
+        </tr>
+        <tr>
+          <td>Dado4</td>
+          <td>Dado5</td>
+          <td>Dado6</td>
+          <td>Dado7</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4" scope="row">Rodapé da Tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
