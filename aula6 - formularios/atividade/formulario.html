@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cadastro de Alunos - DSM</h1>
+    <p>
+      Este formulário foi criado para um exercício acadêmico e tem como objetivo
+      simular o cadastro de alunos do curso de Desenvolvimento de Software
+      Multiplataforma (DSM). Ele reúne informações básicas fictícias para
+      praticar a organização e o registro de dados em sistemas.
+    </p>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome"> Nome: </label>
+        <br />
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Nome completo"
+          required
+        />
+        <br />
+        <label for="email">Seu Email:</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <br />
+        <label for="nascimento">Data de Nascimento:</label>
+        <br />
+        <input type="date" id="nascimento" name="nascimento" />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Dados Acadêmicos</legend>
+        <label for="curso">Curso:</label>
+        <br />
+        <select name="cursos" id="curso">
+          <option value="dsm">
+            Desenvolvimento de Software Multiplataforma
+          </option>
+          <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+          <option value="outro">Outro</option>
+        </select>
+        <br />
+        <label for="manha">Período:</label>
+        <br />
+        <input type="radio" name="periodo" id="manha" value="manha" required />
+        <label for="manha">Manhã</label>
+        <br />
+        <input type="radio" name="periodo" id="noite" value="noite" />
+        <label for="noite">Noite</label>
+        <br />
+        <label for="observacoes">Observações:</label>
+        <br />
+        <input
+          type="textarea"
+          name="observacoes"
+          id="observacoes"
+          placeholder="Observações"
+        />
+      </fieldset>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>
